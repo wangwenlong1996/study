@@ -9,12 +9,12 @@ import java.awt.*;
  */
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        TankFrame tk = new TankFrame();
+        TankFrame tf = new TankFrame();
 
 
         while(true) {
             Thread.sleep(50);
-            tk.repaint();
+            tf.repaint();
         }
     }
 }
