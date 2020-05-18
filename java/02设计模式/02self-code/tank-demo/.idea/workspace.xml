@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f82dec6-32c8-4cc8-a40c-524aa12c9a30" name="Default Changelist" comment="" />
+    <list default="true" id="6f82dec6-32c8-4cc8-a40c-524aa12c9a30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Explode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/ImageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/PropertyMgr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/ResourceMgr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01example-code/tank" beforeDir="false" afterPath="$PROJECT_DIR$/../../01example-code/tank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/TankFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/TankFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Bullet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Bullet$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Bullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Dir.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Dir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Tank$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Tank$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Tank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Tank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/TankFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/TankFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/TankFrame$MyKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/TankFrame$MyKeyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/TankFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/TankFrame.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -25,6 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -38,9 +65,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.tank.Main" />
+      <module name="tank-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="name.wwl.demo.study.tank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropertyMgr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.tank.PropertyMgr" />
+      <module name="tank-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="name.wwl.demo.study.tank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResourceMgr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.tank.ResourceMgr" />
       <module name="tank-demo" />
       <extension name="coverage">
         <pattern>
@@ -55,6 +108,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PropertyMgr" />
+        <item itemvalue="Application.ResourceMgr" />
       </list>
     </recent_temporary>
   </component>
@@ -80,7 +135,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
