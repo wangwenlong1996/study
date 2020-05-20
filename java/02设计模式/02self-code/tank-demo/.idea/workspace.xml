@@ -2,8 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f82dec6-32c8-4cc8-a40c-524aa12c9a30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/AK47.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Bread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Broom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/MagicFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/MagicStick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/ModernFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/MushRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple/Broom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple/Moveable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple/SimpleVehicleFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../01example-code/tank" beforeDir="false" afterPath="$PROJECT_DIR$/../../01example-code/tank" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/design/pattern/strategy/StrategyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/design/pattern/strategy/StrategyMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../大数据/01ElasticSearch/03思维导图/ES.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../大数据/01ElasticSearch/03思维导图/ES.xmind" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -36,7 +58,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java大数据学习总结\java\02设计模式\02self-code\tank-demo\src\main\java\name\wwl\demo\study\design\pattern\factory\simple" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,13 +78,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StrategyMain">
-    <configuration name="Singleton05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.singleton.Singleton05" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.factory.abstractfactory.Main" />
       <module name="tank-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="name.wwl.demo.study.design.pattern.singleton.*" />
+          <option name="PATTERN" value="name.wwl.demo.study.design.pattern.factory.abstractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.singleton.Singleton06" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.factory.simple.Main" />
       <module name="tank-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="name.wwl.demo.study.design.pattern.singleton.*" />
+          <option name="PATTERN" value="name.wwl.demo.study.design.pattern.factory.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.StrategyMain" />
         <item itemvalue="Application.Singleton08" />
         <item itemvalue="Application.Singleton07" />
-        <item itemvalue="Application.Singleton06" />
-        <item itemvalue="Application.Singleton05" />
       </list>
     </recent_temporary>
   </component>
