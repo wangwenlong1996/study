@@ -39,6 +39,7 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -159,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589548592876</updated>
       <workItem from="1589548603377" duration="5106000" />
-      <workItem from="1589889904934" duration="5044000" />
+      <workItem from="1589889904934" duration="6565000" />
     </task>
     <servers />
   </component>

@@ -13,7 +13,7 @@ public class StrategyMain {
         sorter.sort(a, new  CatHeightComparator());
         System.out.println(Arrays.toString(a));
 
-        sorter.sort(a, new  CatWightComparator());
+        sorter.sort(a, new CatWeightComparator());
         System.out.println(Arrays.toString(a));
     }
 }
