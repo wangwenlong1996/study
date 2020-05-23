@@ -119,7 +119,7 @@ public class RectTank extends BaseTank {
     }
 
     public void paint(Graphics g) {
-        if (!live) gm.tanks.remove(this);
+        if (!live) gm.remove(this);
         // TODO Auto-generated method stub
 
         Color c = g.getColor();
@@ -170,6 +170,8 @@ public class RectTank extends BaseTank {
 
         if(!moving) return ;
 
+        beforeX =x;
+        beforeY =y;
 
         switch (dir) {
             case LEFT:
@@ -197,6 +199,12 @@ public class RectTank extends BaseTank {
 //        if(this.group == Group.GOOD) new Thread(()->new Audio("audio/tank_fire.wav").play()).start();
         fs.fire(this);
 
+    }
+
+    public void colliderBack(){
+        x = beforeX;
+        y = beforeY;
+        randomDir();
     }
 
 

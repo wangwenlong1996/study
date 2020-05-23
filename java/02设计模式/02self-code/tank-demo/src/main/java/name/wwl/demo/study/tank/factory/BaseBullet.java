@@ -1,12 +1,12 @@
 package name.wwl.demo.study.tank.factory;
 
 import name.wwl.demo.study.tank.Group;
+import name.wwl.demo.study.tank.chain.GameObject;
 
 import java.awt.*;
 
-public abstract class BaseBullet {
-    public abstract void paint(Graphics g);
+public abstract class BaseBullet extends GameObject {
 
-    public abstract void collideWith(BaseTank tank);
+    public abstract boolean collideWith(BaseTank tank);
 
 }

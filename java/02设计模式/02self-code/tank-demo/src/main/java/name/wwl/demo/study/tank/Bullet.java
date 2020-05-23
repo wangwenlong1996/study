@@ -42,12 +42,12 @@ public class Bullet extends BaseBullet {
         rect.width = WIDTH;
         rect.height = HEIGHT;
 
-        gm.bullets.add(this);
+        gm.add(this);
     }
 
     public void  paint(Graphics g){
         if(!live) {
-            gm.bullets.remove(this);
+            gm.remove(this);
         }
 
 //        Color c =g.getColor();
@@ -96,16 +96,18 @@ public class Bullet extends BaseBullet {
     }
 
     @Override
-    public void collideWith(BaseTank tank){
-        if (this.group ==tank.getGroup()) return;
-
+    public boolean collideWith(BaseTank tank){
+        if (this.group ==tank.getGroup()) return false;
         if (rect.intersects(tank.rect)){
              this.die();
              tank.die();
             int eX = tank.getX() + Tank.WIDTH/2 - Explode.WIDTH/2;
             int eY = tank.getY() + Tank.HEIGHT/2 - Explode.HEIGHT/2;
-             gm.explodes.add(gm.gf.createExplore(eX,eY,gm));
+             gm.add(gm.gf.createExplore(eX,eY,gm));
+             return true;
         }
+
+        return false;
     }
 
     private void die(){

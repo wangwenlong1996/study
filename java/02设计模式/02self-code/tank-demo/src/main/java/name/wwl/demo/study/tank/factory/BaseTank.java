@@ -3,13 +3,15 @@ package name.wwl.demo.study.tank.factory;
 import name.wwl.demo.study.tank.Dir;
 import name.wwl.demo.study.tank.Group;
 import name.wwl.demo.study.tank.TankFrame;
+import name.wwl.demo.study.tank.chain.GameObject;
 import name.wwl.demo.study.tank.facade.GameModel;
 
 import java.awt.*;
 
-public abstract class BaseTank {
+public abstract class BaseTank extends GameObject {
 
 
+    public int beforeX,beforeY;
 
     public Group group = Group.BAD;
 
@@ -36,7 +38,6 @@ public abstract class BaseTank {
 
     public GameModel gm = null;
 
-    public abstract void paint(Graphics g);
 
     public Group getGroup(){
         return this.group;

@@ -36,7 +36,7 @@ public class RectExplode extends BaseExplore {
 
         step ++;
         if (step>=ResourceMgr.getInstance().explores.length){
-            gm.explodes.remove(this);
+            gm.remove(this);
         }
 
         g.setColor(c);
