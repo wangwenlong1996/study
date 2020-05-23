@@ -1,6 +1,8 @@
 package name.wwl.demo.study.tank;
 
 
+import name.wwl.demo.study.tank.factory.*;
+
 import java.util.ArrayList;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
@@ -17,11 +19,13 @@ import java.util.List;
 public class TankFrame extends Frame {
 
     Tank myTank = new Tank(200, 400, Dir.DOWN,Group.GOOD,this);
-    public List<Bullet> bullets = new ArrayList<Bullet>();
-    List<Tank> tanks = new ArrayList<Tank>();
-    List<Explode> explodes = new ArrayList<>();
+    public List<BaseBullet> bullets = new ArrayList<>();
+    public List<BaseTank> tanks = new ArrayList<>();
+    public List<BaseExplore> explodes = new ArrayList<>();
 
-    static final int GAME_WIDTH = 800, GAME_HEIGHT = 600;
+    public GameFactory gf = new DefaultFactory();
+
+    public static final int GAME_WIDTH = 800, GAME_HEIGHT = 600;
 
 
 
