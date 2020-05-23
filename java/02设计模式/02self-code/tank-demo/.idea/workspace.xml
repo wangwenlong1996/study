@@ -2,28 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f82dec6-32c8-4cc8-a40c-524aa12c9a30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/AK47.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Bread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Broom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/MagicFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/MagicStick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/ModernFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/MushRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple/Broom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple/Moveable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple/SimpleVehicleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01example-code/tank" beforeDir="false" afterPath="$PROJECT_DIR$/../../01example-code/tank" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/design/pattern/strategy/StrategyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/design/pattern/strategy/StrategyMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Explode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Explode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/ResourceMgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/ResourceMgr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Bullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Explode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Explode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/ResourceMgr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/ResourceMgr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Tank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Tank.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../大数据/01ElasticSearch/03思维导图/ES.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../大数据/01ElasticSearch/03思维导图/ES.xmind" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,6 +18,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,6 +41,9 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1bwgVIhbvDdFDUZg8HvsZ8LCZuR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -78,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.factory.abstractfactory.Main" />
       <module name="tank-demo" />
@@ -92,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.factory.simple.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.tank.Main" />
       <module name="tank-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="name.wwl.demo.study.design.pattern.factory.simple.*" />
+          <option name="PATTERN" value="name.wwl.demo.study.tank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.singleton.Singleton07" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.factory.simple.Main" />
       <module name="tank-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="name.wwl.demo.study.design.pattern.singleton.*" />
+          <option name="PATTERN" value="name.wwl.demo.study.design.pattern.factory.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.StrategyMain" />
         <item itemvalue="Application.Singleton08" />
-        <item itemvalue="Application.Singleton07" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +159,7 @@
       <updated>1589548592876</updated>
       <workItem from="1589548603377" duration="5106000" />
       <workItem from="1589889904934" duration="4500000" />
+      <workItem from="1590023646318" duration="3326000" />
     </task>
     <servers />
   </component>
