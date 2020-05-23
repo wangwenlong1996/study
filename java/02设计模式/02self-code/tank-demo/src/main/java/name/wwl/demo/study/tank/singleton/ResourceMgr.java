@@ -1,4 +1,6 @@
-package name.wwl.demo.study.tank;
+package name.wwl.demo.study.tank.singleton;
+
+import name.wwl.demo.study.tank.ImageUtil;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;

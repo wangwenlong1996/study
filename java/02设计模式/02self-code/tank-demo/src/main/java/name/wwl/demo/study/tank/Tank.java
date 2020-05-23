@@ -1,21 +1,29 @@
 package name.wwl.demo.study.tank;
 
+import name.wwl.demo.study.tank.singleton.ResourceMgr;
+import name.wwl.demo.study.tank.strategy.FireStrategy;
+
 import java.awt.*;
+import java.lang.reflect.InvocationTargetException;
 import java.util.Random;
 
 public class Tank {
-    private int x, y;
+    int x, y;
 
 
 
     private Boolean live = true;
 
-    private Dir dir = Dir.DOWN;
+    Dir dir = Dir.DOWN;
     private static final int SPEED = 10;
 
     private boolean moving = false;
 
-    private TankFrame tf = null;
+    public TankFrame getTf() {
+        return tf;
+    }
+
+    TankFrame tf = null;
 
     Rectangle rect = new Rectangle();
 
@@ -26,6 +34,7 @@ public class Tank {
 
     private Random random = new Random();
 
+    FireStrategy fs;
 
     public Tank(int x, int y, Dir dir,Group group, TankFrame tf) {
         super();
@@ -36,6 +45,39 @@ public class Tank {
         this.group = group;
         if (this.group == Group.BAD){
             this.moving = true;
+        }
+
+        if (this.group == Group.GOOD){
+            String goodFsName = (String) PropertyMgr.get("goodFS");
+
+            try {
+                fs = (FireStrategy)Class.forName(goodFsName).getDeclaredConstructor().newInstance();
+            } catch (InstantiationException e) {
+                e.printStackTrace();
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            } catch (InvocationTargetException e) {
+                e.printStackTrace();
+            } catch (NoSuchMethodException e) {
+                e.printStackTrace();
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+        }else {
+            String badFsName = (String) PropertyMgr.get("badFS");
+            try {
+                fs = (FireStrategy)Class.forName(badFsName).getDeclaredConstructor().newInstance();
+            } catch (InstantiationException e) {
+                e.printStackTrace();
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            } catch (InvocationTargetException e) {
+                e.printStackTrace();
+            } catch (NoSuchMethodException e) {
+                e.printStackTrace();
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            }
         }
 
         rect.x = this.x;
@@ -143,11 +185,12 @@ public class Tank {
     public void fire(){
 //        int bx = this.x+Tank.WIDTH/2-Bullet.WIDTH/2;
 //        int by = this.y+Tank.HEIGHT/2 - Bullet.HEIGHT/2;
-        int bx = this.x+Tank.WIDTH/2-Bullet.WIDTH/2;
-        int by = this.y+Tank.HEIGHT/2 -Bullet.HEIGHT/2;
-        tf.bullets.add(new Bullet(bx,by,this.dir,this.group,tf));
-
-        if(this.group == Group.GOOD) new Thread(()->new Audio("audio/tank_fire.wav").play()).start();
+//        int bx = this.x+Tank.WIDTH/2-Bullet.WIDTH/2;
+//        int by = this.y+Tank.HEIGHT/2 -Bullet.HEIGHT/2;
+//        tf.bullets.add(new Bullet(bx,by,this.dir,this.group,tf));
+//
+//        if(this.group == Group.GOOD) new Thread(()->new Audio("audio/tank_fire.wav").play()).start();
+        fs.fire(this);
     }
 
     public void die(){

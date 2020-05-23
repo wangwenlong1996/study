@@ -1,5 +1,7 @@
 package name.wwl.demo.study.tank;
 
+import name.wwl.demo.study.tank.singleton.ResourceMgr;
+
 import java.awt.*;
 
 public class Bullet {
@@ -36,6 +38,8 @@ public class Bullet {
         rect.y = this.y;
         rect.width = WIDTH;
         rect.height = HEIGHT;
+
+        tf.bullets.add(this);
     }
 
     public void  paint(Graphics g){

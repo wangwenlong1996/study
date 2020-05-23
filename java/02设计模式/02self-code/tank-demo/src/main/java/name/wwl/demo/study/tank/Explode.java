@@ -1,5 +1,7 @@
 package name.wwl.demo.study.tank;
 
+import name.wwl.demo.study.tank.singleton.ResourceMgr;
+
 import java.awt.*;
 
 /**
