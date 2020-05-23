@@ -9,8 +9,8 @@ import java.awt.*;
  */
 public class Explode {
 
-    public static int WIDTH = ResourceMgr.explores[0].getWidth();
-    public static int HEIGHT = ResourceMgr.explores[0].getHeight();
+    public static int WIDTH = ResourceMgr.getInstance().explores[0].getWidth();
+    public static int HEIGHT = ResourceMgr.getInstance().explores[0].getHeight();
 
     private int x,y;
 
@@ -29,9 +29,9 @@ public class Explode {
     }
 
     public void paint(Graphics g){
-        g.drawImage(ResourceMgr.explores[step++],x,y,null);
+        g.drawImage(ResourceMgr.getInstance().explores[step++],x,y,null);
 
-        if (step>=ResourceMgr.explores.length){
+        if (step>=ResourceMgr.getInstance().explores.length){
             tf.explodes.remove(this);
         }
     }

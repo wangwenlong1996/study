@@ -10,23 +10,23 @@ import java.io.IOException;
  * @Date: 2020/5/18 14:23
  */
 public class ResourceMgr {
-    public static BufferedImage goodTankL, goodTankU, goodTankR, goodTankD;
-    public static BufferedImage badTankL, badTankU, badTankR, badTankD;
+    public BufferedImage goodTankL, goodTankU, goodTankR, goodTankD;
+    public  BufferedImage badTankL, badTankU, badTankR, badTankD;
 
-    public static BufferedImage bulletL, bulletU, bulletR, bulletD;
+    public  BufferedImage bulletL, bulletU, bulletR, bulletD;
 
-    public static BufferedImage[] explores = new BufferedImage[16];
+    public BufferedImage[] explores = new BufferedImage[16];
 
+    private volatile static ResourceMgr INSTANCE;
 
-    static {
+    private ResourceMgr(){
         try{
-
-            goodTankU = ImageIO.read(ResourceMgr.class.getClassLoader().getResourceAsStream("images/GoodTank1.png"));
+            goodTankU = ImageIO.read(ResourceMgr.class.getClassLoader().getResourceAsStream("images/goodTank1.png"));
             goodTankL = ImageUtil.rotateImage(goodTankU,-90);
             goodTankR = ImageUtil.rotateImage(goodTankU,90);
             goodTankD = ImageUtil.rotateImage(goodTankU,180);
 
-            badTankU = ImageIO.read(ResourceMgr.class.getClassLoader().getResourceAsStream("images/BadTank1.png"));
+            badTankU = ImageIO.read(ResourceMgr.class.getClassLoader().getResourceAsStream("images/badTank1.png"));
             badTankL = ImageUtil.rotateImage(badTankU,-90);
             badTankR = ImageUtil.rotateImage(badTankU,90);
             badTankD = ImageUtil.rotateImage(badTankU,180);
@@ -43,6 +43,20 @@ public class ResourceMgr {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
     }
 
+    public static ResourceMgr getInstance(){
+        if (INSTANCE == null){
+            synchronized (ResourceMgr.class){
+                if (INSTANCE ==null){
+                    INSTANCE = new ResourceMgr();
+                }
+            }
+        }
+        return INSTANCE;
+    }
+
+
+    
 }

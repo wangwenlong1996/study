@@ -5,8 +5,8 @@ import java.awt.*;
 public class Bullet {
 
     private static final int SPEED = 10;
-    public static int WIDTH = ResourceMgr.bulletD.getWidth();
-    public static int HEIGHT = ResourceMgr.bulletD.getHeight();
+    public static int WIDTH = ResourceMgr.getInstance().bulletD.getWidth();
+    public static int HEIGHT = ResourceMgr.getInstance().bulletD.getHeight();
 
     Rectangle rect = new Rectangle();
 
@@ -50,16 +50,16 @@ public class Bullet {
 
         switch (dir) {
             case LEFT:
-                g.drawImage(ResourceMgr.bulletL,x,y,null);
+                g.drawImage(ResourceMgr.getInstance().bulletL,x,y,null);
                 break;
             case UP:
-                g.drawImage(ResourceMgr.bulletU,x,y,null);
+                g.drawImage(ResourceMgr.getInstance().bulletU,x,y,null);
                 break;
             case RIGHT:
-                g.drawImage(ResourceMgr.bulletR,x,y,null);
+                g.drawImage(ResourceMgr.getInstance().bulletR,x,y,null);
                 break;
             case DOWN:
-                g.drawImage(ResourceMgr.bulletD,x,y,null);
+                g.drawImage(ResourceMgr.getInstance().bulletD,x,y,null);
                 break;
         }
 
