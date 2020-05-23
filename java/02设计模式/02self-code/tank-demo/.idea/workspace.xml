@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f82dec6-32c8-4cc8-a40c-524aa12c9a30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/AK47.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Bread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Broom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/MagicFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/MagicStick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/ModernFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/MushRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/abstractfactory/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple/Broom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple/Moveable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/factory/simple/SimpleVehicleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01example-code/tank" beforeDir="false" afterPath="$PROJECT_DIR$/../../01example-code/tank" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/design/pattern/strategy/StrategyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/design/pattern/strategy/StrategyMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../大数据/01ElasticSearch/03思维导图/ES.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../大数据/01ElasticSearch/03思维导图/ES.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/ResourceMgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/ResourceMgr.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +146,8 @@
       <option name="presentableId" value="Default" />
       <updated>1589548592876</updated>
       <workItem from="1589548603377" duration="5106000" />
-      <workItem from="1589889904934" duration="7666000" />
+      <workItem from="1589889904934" duration="7822000" />
+      <workItem from="1590206224092" duration="824000" />
     </task>
     <servers />
   </component>
@@ -177,6 +157,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/java大数据学习/study/java/02设计模式/02self-code/tank-demo/src/main/java/name/wwl/demo/study/design/pattern/singleton" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -185,6 +190,11 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
     </option>
   </component>
 </project>
