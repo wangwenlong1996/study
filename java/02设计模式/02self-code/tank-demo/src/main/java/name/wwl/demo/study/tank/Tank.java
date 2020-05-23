@@ -1,5 +1,6 @@
 package name.wwl.demo.study.tank;
 
+import name.wwl.demo.study.tank.facade.GameModel;
 import name.wwl.demo.study.tank.factory.BaseTank;
 import name.wwl.demo.study.tank.singleton.ResourceMgr;
 import name.wwl.demo.study.tank.strategy.FireStrategy;
@@ -20,30 +21,29 @@ public class Tank extends BaseTank {
 
     private boolean moving = false;
 
-    public TankFrame getTf() {
-        return tf;
-    }
 
 
 
-//    Rectangle rect = new Rectangle();
+
 
     public static int WIDTH = ResourceMgr.getInstance().goodTankU.getWidth();
     public static int HEIGHT = ResourceMgr.getInstance().goodTankU.getHeight();
 
-//    private Group group = Group.BAD;
 
     private Random random = new Random();
 
     FireStrategy fs;
 
-    public Tank(int x, int y, Dir dir,Group group, TankFrame tf) {
+
+
+
+    public Tank(int x, int y, Dir dir,Group group, GameModel gm) {
         super();
 
         this.x = x;
         this.y = y;
         this.dir = dir;
-        this.tf = tf;
+        this.gm = gm;
         this.group = group;
         if (this.group == Group.BAD){
             this.moving = true;
@@ -88,6 +88,7 @@ public class Tank extends BaseTank {
         rect.height = HEIGHT;
 
     }
+
     public Group getGroup() {
         return group;
     }
@@ -121,7 +122,7 @@ public class Tank extends BaseTank {
     }
 
     public void paint(Graphics g) {
-        if (!live) tf.tanks.remove(this);
+        if (!live) gm.tanks.remove(this);
         // TODO Auto-generated method stub
 
         switch (dir){

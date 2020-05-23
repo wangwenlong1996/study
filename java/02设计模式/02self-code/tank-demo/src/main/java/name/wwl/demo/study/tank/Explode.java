@@ -1,5 +1,6 @@
 package name.wwl.demo.study.tank;
 
+import name.wwl.demo.study.tank.facade.GameModel;
 import name.wwl.demo.study.tank.factory.BaseExplore;
 import name.wwl.demo.study.tank.singleton.ResourceMgr;
 
@@ -19,14 +20,14 @@ public class Explode extends BaseExplore {
 
     private Boolean live = true;
 
-    TankFrame tf = null;
+    GameModel gm = null;
 
     private int step = 0;
 
-    public Explode(int x, int y, TankFrame tf) {
+    public Explode(int x, int y, GameModel gm) {
         this.x = x;
         this.y = y;
-        this.tf = tf;
+        this.gm = gm;
 
         new Thread(()->new Audio("audio/explode.wav").play()).start();
     }
@@ -36,7 +37,7 @@ public class Explode extends BaseExplore {
         g.drawImage(ResourceMgr.getInstance().explores[step++],x,y,null);
 
         if (step>=ResourceMgr.getInstance().explores.length){
-            tf.explodes.remove(this);
+            gm.explodes.remove(this);
         }
     }
 }

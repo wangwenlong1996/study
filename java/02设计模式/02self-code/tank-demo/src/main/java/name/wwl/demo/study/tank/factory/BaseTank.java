@@ -3,6 +3,7 @@ package name.wwl.demo.study.tank.factory;
 import name.wwl.demo.study.tank.Dir;
 import name.wwl.demo.study.tank.Group;
 import name.wwl.demo.study.tank.TankFrame;
+import name.wwl.demo.study.tank.facade.GameModel;
 
 import java.awt.*;
 
@@ -22,13 +23,18 @@ public abstract class BaseTank {
         return dir;
     }
 
-    public TankFrame getTf() {
-        return tf;
-    }
 
     public Dir dir = Dir.DOWN;
 
-    public TankFrame tf = null;
+    public GameModel getGm() {
+        return gm;
+    }
+
+    public void setGm(GameModel gm) {
+        this.gm = gm;
+    }
+
+    public GameModel gm = null;
 
     public abstract void paint(Graphics g);
 

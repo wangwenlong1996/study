@@ -1,6 +1,7 @@
 package name.wwl.demo.study.tank;
 
 
+import name.wwl.demo.study.tank.facade.GameModel;
 import name.wwl.demo.study.tank.factory.*;
 
 import java.util.ArrayList;
@@ -18,12 +19,10 @@ import java.util.List;
  */
 public class TankFrame extends Frame {
 
-    Tank myTank = new Tank(200, 400, Dir.DOWN,Group.GOOD,this);
-    public List<BaseBullet> bullets = new ArrayList<>();
-    public List<BaseTank> tanks = new ArrayList<>();
-    public List<BaseExplore> explodes = new ArrayList<>();
 
-    public GameFactory gf = new DefaultFactory();
+    public GameModel gm = new GameModel();
+
+
 
     public static final int GAME_WIDTH = 800, GAME_HEIGHT = 600;
 
@@ -63,34 +62,7 @@ public class TankFrame extends Frame {
 
     @Override
     public void paint(Graphics g){
-
-        Color c = g.getColor();
-        g.setColor(Color.WHITE);
-        g.drawString("子弹的数量:" + bullets.size(), 10, 60);
-        g.drawString("敌人的数量:" + tanks.size(), 10, 80);
-        g.drawString("爆炸的数量:" + explodes.size(), 10, 100);
-        g.setColor(c);
-
-
-       myTank.paint(g);
-
-        for(int i=0; i<bullets.size(); i++) {
-            bullets.get(i).paint(g);
-        }
-
-        for(int i=0; i<tanks.size(); i++) {
-            tanks.get(i).paint(g);
-        }
-
-        for (int i =0;i< bullets.size();i++){
-            for (int j=0;j<tanks.size();j++){
-                bullets.get(i).collideWith(tanks.get(j));
-            }
-        }
-
-        for (int i = 0; i < explodes.size(); i++) {
-            explodes.get(i).paint(g);
-        }
+        gm.paint(g);
     }
 
     class MyKeyListener extends KeyAdapter{
@@ -140,7 +112,7 @@ public class TankFrame extends Frame {
                     bD = false;
                     break;
                 case KeyEvent.VK_CONTROL:
-                    myTank.fire();
+                    gm.getMyTank().fire();
                     break;
 
                 default:
@@ -151,14 +123,16 @@ public class TankFrame extends Frame {
 
         private void setMainTankDir() {
 
-            if(!bL && !bU && !bR && !bD) myTank.setMoving(false);
-            else {
-                myTank.setMoving(true);
 
-                if(bL) myTank.setDir(Dir.LEFT);
-                if(bU) myTank.setDir(Dir.UP);
-                if(bR) myTank.setDir(Dir.RIGHT); 
-                if(bD) myTank.setDir(Dir.DOWN);
+
+            if(!bL && !bU && !bR && !bD) gm.getMyTank().setMoving(false);
+            else {
+                gm.getMyTank().setMoving(true);
+
+                if(bL) gm.getMyTank().setDir(Dir.LEFT);
+                if(bU) gm.getMyTank().setDir(Dir.UP);
+                if(bR) gm.getMyTank().setDir(Dir.RIGHT);
+                if(bD) gm.getMyTank().setDir(Dir.DOWN);
             }
         }
 

@@ -4,6 +4,7 @@ import name.wwl.demo.study.tank.Dir;
 import name.wwl.demo.study.tank.Group;
 import name.wwl.demo.study.tank.PropertyMgr;
 import name.wwl.demo.study.tank.TankFrame;
+import name.wwl.demo.study.tank.facade.GameModel;
 import name.wwl.demo.study.tank.singleton.ResourceMgr;
 import name.wwl.demo.study.tank.strategy.FireStrategy;
 
@@ -22,9 +23,6 @@ public class RectTank extends BaseTank {
 
     private boolean moving = false;
 
-    public TankFrame getTf() {
-        return tf;
-    }
 
 
 //    Rectangle rect = new Rectangle();
@@ -38,12 +36,12 @@ public class RectTank extends BaseTank {
 
     FireStrategy fs;
 
-    public RectTank(int x, int y, Dir dir, Group group, TankFrame tf) {
+    public RectTank(int x, int y, Dir dir, Group group, GameModel gm) {
         super();
         this.x = x;
         this.y = y;
         this.dir = dir;
-        this.tf = tf;
+        this.gm = gm;
         this.group = group;
         if (this.group == Group.BAD){
             this.moving = true;
@@ -121,7 +119,7 @@ public class RectTank extends BaseTank {
     }
 
     public void paint(Graphics g) {
-        if (!live) tf.tanks.remove(this);
+        if (!live) gm.tanks.remove(this);
         // TODO Auto-generated method stub
 
         Color c = g.getColor();

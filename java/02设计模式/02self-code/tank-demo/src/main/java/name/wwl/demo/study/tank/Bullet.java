@@ -1,5 +1,6 @@
 package name.wwl.demo.study.tank;
 
+import name.wwl.demo.study.tank.facade.GameModel;
 import name.wwl.demo.study.tank.factory.BaseBullet;
 import name.wwl.demo.study.tank.factory.BaseTank;
 import name.wwl.demo.study.tank.singleton.ResourceMgr;
@@ -14,7 +15,7 @@ public class Bullet extends BaseBullet {
 
     Rectangle rect = new Rectangle();
 
-    TankFrame tf = null;
+    GameModel gm = null;
     private int x, y;
     private Dir dir;
     private boolean live=true;
@@ -29,11 +30,11 @@ public class Bullet extends BaseBullet {
         this.group = group;
     }
 
-    public Bullet(int x, int y, Dir dir, Group group, TankFrame tf) {
+    public Bullet(int x, int y, Dir dir, Group group, GameModel gm) {
         this.x = x;
         this.y = y;
         this.dir = dir;
-        this.tf = tf;
+        this.gm = gm;
         this.group = group;
 
         rect.x = this.x;
@@ -41,12 +42,12 @@ public class Bullet extends BaseBullet {
         rect.width = WIDTH;
         rect.height = HEIGHT;
 
-        tf.bullets.add(this);
+        gm.bullets.add(this);
     }
 
     public void  paint(Graphics g){
         if(!live) {
-            tf.bullets.remove(this);
+            gm.bullets.remove(this);
         }
 
 //        Color c =g.getColor();
@@ -103,7 +104,7 @@ public class Bullet extends BaseBullet {
              tank.die();
             int eX = tank.getX() + Tank.WIDTH/2 - Explode.WIDTH/2;
             int eY = tank.getY() + Tank.HEIGHT/2 - Explode.HEIGHT/2;
-             tf.explodes.add(tf.gf.createExplore(eX,eY,tf));
+             gm.explodes.add(gm.gf.createExplore(eX,eY,gm));
         }
     }
 
