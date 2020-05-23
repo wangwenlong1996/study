@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f82dec6-32c8-4cc8-a40c-524aa12c9a30" name="Default Changelist" comment="">
+    <list default="true" id="6f82dec6-32c8-4cc8-a40c-524aa12c9a30" name="Default Changelist" comment="坦克大战策略模式">
+      <change afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/design/pattern/strategy/CatWeightComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/BaseBullet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/BaseExplore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/BaseTank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/DefaultFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/GameFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectBullet$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectBullet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectExplode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectTank$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectTank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/singleton/ResourceMgr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/strategy/DefaultFireStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/strategy/FireStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/strategy/FourDirFireStrategy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/ResourceMgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/ResourceMgr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/TankFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/TankFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/design/pattern/strategy/CatWightComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/design/pattern/strategy/StrategyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/design/pattern/strategy/StrategyMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Audio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Audio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Bullet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Bullet$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Bullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Explode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Explode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/ResourceMgr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Tank$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Tank$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Tank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Tank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/TankFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/TankFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/TankFrame$MyKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/TankFrame$MyKeyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/TankFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/TankFrame.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +45,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,6 +73,9 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="name.wwl.demo.study.tank.factory" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\java大数据学习总结\java\02设计模式\02self-code\tank-demo\src\main\java\name\wwl\demo\study\design\pattern\factory\simple" />
     </key>
@@ -59,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.factory.abstractfactory.Main" />
       <module name="tank-demo" />
@@ -86,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.singleton.Singleton07" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.tank.Main" />
       <module name="tank-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="name.wwl.demo.study.design.pattern.singleton.*" />
+          <option name="PATTERN" value="name.wwl.demo.study.tank.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.StrategyMain" />
         <item itemvalue="Application.Singleton08" />
-        <item itemvalue="Application.Singleton07" />
       </list>
     </recent_temporary>
   </component>
@@ -147,8 +180,23 @@
       <updated>1589548592876</updated>
       <workItem from="1589548603377" duration="5106000" />
       <workItem from="1589889904934" duration="7822000" />
-      <workItem from="1590206224092" duration="824000" />
+      <workItem from="1590206224092" duration="10972000" />
     </task>
+    <task id="LOCAL-00001" summary="坦克大战策略模式">
+      <created>1590210308558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590210308559</updated>
+    </task>
+    <task id="LOCAL-00002" summary="坦克大战之抽象工厂模式">
+      <created>1590229796068</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590229796068</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,5 +244,21 @@
         <option value="1" />
       </set>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="坦克大战策略模式" />
+    <MESSAGE value="坦克大战之抽象工厂模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="坦克大战之抽象工厂模式" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/strategy/FourDirFireStrategy.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
