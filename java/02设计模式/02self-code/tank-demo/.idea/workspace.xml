@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f82dec6-32c8-4cc8-a40c-524aa12c9a30" name="Default Changelist" comment="坦克大战策略模式">
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/chain/BulletTankCollider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/chain/Collider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/chain/ColliderChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/chain/GameObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/chain/TankTankCollider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Explode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Explode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Tank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/TankFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/TankFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/facade/GameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/facade/GameModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/BaseBullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/BaseBullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/BaseExplore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/BaseExplore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/BaseTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/BaseTank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/RectBullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/RectBullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/RectExplode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/RectExplode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/RectTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/RectTank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Bullet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Explode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Explode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Tank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Tank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/TankFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/TankFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/facade/GameModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/facade/GameModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/BaseBullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/BaseBullet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/BaseExplore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/BaseExplore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/BaseTank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/BaseTank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectBullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectBullet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectExplode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectExplode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectTank$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectTank$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectTank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectTank.class" afterDir="false" />
-    </list>
+    <list default="true" id="6f82dec6-32c8-4cc8-a40c-524aa12c9a30" name="Default Changelist" comment="坦克大战策略模式" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +147,7 @@
       <updated>1589548592876</updated>
       <workItem from="1589548603377" duration="5106000" />
       <workItem from="1589889904934" duration="7822000" />
-      <workItem from="1590206224092" duration="17662000" />
+      <workItem from="1590206224092" duration="17899000" />
     </task>
     <task id="LOCAL-00001" summary="坦克大战策略模式">
       <created>1590210308558</created>
