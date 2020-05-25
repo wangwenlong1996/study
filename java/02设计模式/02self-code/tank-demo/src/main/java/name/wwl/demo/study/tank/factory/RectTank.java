@@ -36,12 +36,11 @@ public class RectTank extends BaseTank {
 
     FireStrategy fs;
 
-    public RectTank(int x, int y, Dir dir, Group group, GameModel gm) {
+    public RectTank(int x, int y, Dir dir, Group group) {
         super();
         this.x = x;
         this.y = y;
         this.dir = dir;
-        this.gm = gm;
         this.group = group;
         if (this.group == Group.BAD){
             this.moving = true;
@@ -152,6 +151,16 @@ public class RectTank extends BaseTank {
 
         rect.x = this.x;
         rect.y = this.y;
+    }
+
+    @Override
+    public int getWidth() {
+        return WIDTH;
+    }
+
+    @Override
+    public int getHeight() {
+        return HEIGHT;
     }
 
     private void boundCheck(){

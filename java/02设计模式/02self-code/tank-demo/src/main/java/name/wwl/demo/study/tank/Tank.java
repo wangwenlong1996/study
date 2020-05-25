@@ -2,11 +2,15 @@ package name.wwl.demo.study.tank;
 
 import name.wwl.demo.study.tank.facade.GameModel;
 import name.wwl.demo.study.tank.factory.BaseTank;
+import name.wwl.demo.study.tank.observe.TankFireEvent;
+import name.wwl.demo.study.tank.observe.TankFireHandler;
+import name.wwl.demo.study.tank.observe.TankFireObserver;
 import name.wwl.demo.study.tank.singleton.ResourceMgr;
 import name.wwl.demo.study.tank.strategy.FireStrategy;
 
 import java.awt.*;
 import java.lang.reflect.InvocationTargetException;
+import java.util.Arrays;
 import java.util.Random;
 
 public class Tank extends BaseTank {
@@ -37,19 +41,17 @@ public class Tank extends BaseTank {
 
 
 
-    public Tank(int x, int y, Dir dir,Group group, GameModel gm) {
-        super();
-
+    public Tank(int x, int y, Dir dir,Group group) {
         this.x = x;
         this.y = y;
         this.dir = dir;
-        this.gm = gm;
         this.group = group;
         if (this.group == Group.BAD){
             this.moving = true;
         }
 
         if (this.group == Group.GOOD){
+//            String goodFsName = (String) PropertyMgr.get("decoratorFS");
             String goodFsName = (String) PropertyMgr.get("goodFS");
 
             try {
@@ -80,12 +82,16 @@ public class Tank extends BaseTank {
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
             }
+
         }
 
         rect.x = this.x;
         rect.y = this.y;
         rect.width = WIDTH;
         rect.height = HEIGHT;
+
+        gm.add(this);
+
 
     }
 
@@ -152,6 +158,16 @@ public class Tank extends BaseTank {
         rect.y = this.y;
     }
 
+    @Override
+    public int getWidth() {
+        return WIDTH;
+    }
+
+    @Override
+    public int getHeight() {
+        return HEIGHT;
+    }
+
     private void boundCheck(){
         if (this.x<2) x = 2;
         if (this.y<28) y = 28;
@@ -204,7 +220,8 @@ public class Tank extends BaseTank {
 
         x = beforeX;
         y = beforeY;
-        randomDir();
+//        this.die();
+//        randomDir();
     }
 
 
@@ -212,5 +229,15 @@ public class Tank extends BaseTank {
         this.live = false;
     }
 
+
+    private java.util.List<TankFireObserver> fireObservers = Arrays.asList(new TankFireHandler());
+
+    public void handleFireKey(){
+        TankFireEvent event = new TankFireEvent(this);
+
+        for (TankFireObserver o: fireObservers){
+            o.actionOnFire(event);
+        }
+    }
 
 }

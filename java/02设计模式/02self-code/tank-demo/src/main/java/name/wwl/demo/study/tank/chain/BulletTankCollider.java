@@ -1,6 +1,8 @@
 package name.wwl.demo.study.tank.chain;
 
 import name.wwl.demo.study.tank.Bullet;
+import name.wwl.demo.study.tank.Explode;
+import name.wwl.demo.study.tank.Group;
 import name.wwl.demo.study.tank.Tank;
 
 public class BulletTankCollider implements Collider {
@@ -12,7 +14,16 @@ public class BulletTankCollider implements Collider {
 
             Tank t = (Tank)o2;
 
-            if (b.collideWith(t)){
+            if (t.getGroup()== Group.GOOD) return true;
+
+            if(b.getGroup() == t.getGroup()) return true;
+
+            if(b.rect.intersects(t.rect)) {
+                t.die();
+                b.die();
+                int eX = t.getX() + Tank.WIDTH/2 - Explode.WIDTH/2;
+                int eY = t.getY() + Tank.HEIGHT/2 - Explode.HEIGHT/2;
+                 new Explode(eX, eY);
                 return false;
             }
         }

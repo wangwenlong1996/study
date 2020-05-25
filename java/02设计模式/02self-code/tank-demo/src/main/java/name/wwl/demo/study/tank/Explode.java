@@ -21,15 +21,15 @@ public class Explode extends BaseExplore{
 
     private Boolean live = true;
 
-    GameModel gm = null;
+    GameModel gm = GameModel.getInstance();
 
     private int step = 0;
 
-    public Explode(int x, int y, GameModel gm) {
+    public Explode(int x, int y) {
         this.x = x;
         this.y = y;
-        this.gm = gm;
 
+        GameModel.getInstance().add(this);
         new Thread(()->new Audio("audio/explode.wav").play()).start();
     }
 
@@ -40,5 +40,15 @@ public class Explode extends BaseExplore{
         if (step>=ResourceMgr.getInstance().explores.length){
             gm.remove(this);
         }
+    }
+
+    @Override
+    public int getWidth() {
+        return WIDTH;
+    }
+
+    @Override
+    public int getHeight() {
+        return HEIGHT;
     }
 }

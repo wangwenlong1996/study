@@ -1,7 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f82dec6-32c8-4cc8-a40c-524aa12c9a30" name="Default Changelist" comment="坦克大战策略模式" />
+    <list default="true" id="6f82dec6-32c8-4cc8-a40c-524aa12c9a30" name="Default Changelist" comment="坦克大战策略模式">
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/chain/BulletWallCollider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/chain/TankWallCollider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/decorator/GoDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/decorator/RectDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/decorator/TailDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/BaseWall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/Wall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/observe/TankFireEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/observe/TankFireHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/observe/TankFireObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/strategy/DecoratorFireStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Explode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Explode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/TankFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/TankFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/chain/BulletTankCollider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/chain/BulletTankCollider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/chain/ColliderChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/chain/ColliderChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/chain/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/chain/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/chain/TankTankCollider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/chain/TankTankCollider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/facade/GameModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/facade/GameModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/BaseBullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/BaseBullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/BaseTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/BaseTank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/DefaultFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/DefaultFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/GameFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/GameFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/RectBullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/RectBullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/RectExplode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/RectExplode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/RectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/RectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/RectTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/factory/RectTank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/strategy/DefaultFireStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/strategy/DefaultFireStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/strategy/FourDirFireStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/tank/strategy/FourDirFireStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Bullet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Bullet$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Bullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Explode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Explode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Tank$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Tank$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Tank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/Tank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/TankFrame$MyKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/TankFrame$MyKeyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/TankFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/TankFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/chain/BulletTankCollider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/chain/BulletTankCollider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/chain/ColliderChain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/chain/ColliderChain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/chain/GameObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/chain/GameObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/chain/TankTankCollider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/chain/TankTankCollider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/facade/GameModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/facade/GameModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/BaseBullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/BaseBullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/BaseTank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/BaseTank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/DefaultFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/DefaultFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/GameFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/GameFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectBullet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectBullet$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectBullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectBullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectExplode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectExplode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectTank$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectTank$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectTank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/factory/RectTank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/strategy/DefaultFireStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/strategy/DefaultFireStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/strategy/FourDirFireStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/name/wwl/demo/study/tank/strategy/FourDirFireStrategy.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +124,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="name.wwl.demo.study.design.pattern.factory.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.tank.Main" />
+      <module name="tank-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="name.wwl.demo.study.tank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,6 +219,8 @@
       <workItem from="1589548603377" duration="5106000" />
       <workItem from="1589889904934" duration="7822000" />
       <workItem from="1590206224092" duration="17899000" />
+      <workItem from="1590402263304" duration="9937000" />
+      <workItem from="1590418511691" duration="2082000" />
     </task>
     <task id="LOCAL-00001" summary="坦克大战策略模式">
       <created>1590210308558</created>

@@ -18,10 +18,9 @@ public class RectExplode extends BaseExplore {
 
     private int step = 0;
 
-    public RectExplode(int x, int y, GameModel gm) {
+    public RectExplode(int x, int y) {
         this.x = x;
         this.y = y;
-        this.gm = gm;
 
         new Thread(()->new Audio("audio/explode.wav").play()).start();
     }
@@ -40,5 +39,15 @@ public class RectExplode extends BaseExplore {
         }
 
         g.setColor(c);
+    }
+
+    @Override
+    public int getWidth() {
+        return WIDTH;
+    }
+
+    @Override
+    public int getHeight() {
+        return HEIGHT;
     }
 }
