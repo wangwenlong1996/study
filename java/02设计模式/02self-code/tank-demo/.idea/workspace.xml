@@ -2,17 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f82dec6-32c8-4cc8-a40c-524aa12c9a30" name="Default Changelist" comment="坦克大战策略模式">
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/composite/Composite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/flyweight/FlyWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/observe/Observe1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/observe/Observe2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/observe/Observe3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/observe/Observe4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/observe/Observe5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/observe/Observe6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/observe/Observe7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/observe/Observe8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/adapter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v1/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v1/Flower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v1/GG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v1/Gift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v1/MM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v2/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v2/Flower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v2/GG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v2/Gift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v2/MM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v2/WarmGift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v2/WildGift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v3/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v3/Flower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v3/GG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v3/Gift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v3/MM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v3/WarmFlower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v3/WarmGift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v3/WildGift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v4/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v4/Flower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v4/GG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v4/Gift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v4/GiftImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v4/MM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v4/WarmGift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v4/WildGift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/builder/ComplexTerrainBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/builder/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/builder/Terrain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/builder/TerrainBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/command/Content.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/command/CopyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/command/DeleteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/command/InsertCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/command/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v3/ArrayList_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v3/Collection_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v3/LinkedList_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v5/ArrayList_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v5/Collection_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v5/Iterator_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v5/LinkedList_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v6/ArrayList_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v6/Collection_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v6/Iterator_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/memento/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/prototype/v1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/prototype/v2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/prototype/v3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/prototype/v4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/cglib/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/spring/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/spring/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/spring/TimeProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v1/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v10/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v2/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v3/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v4/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v5/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v6/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v7/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v8/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v9/Tank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/state/ThreadState_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/state/v1/MM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/state/v2/MM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/state/v2/MMHappyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/state/v2/MMSadState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/state/v2/MMState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/templatemethod/TemplateMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/visitor/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/app_auto.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,16 +122,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/software/install/cmder/vendor/git-for-windows/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v10" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="name.wwl.demo.study.design.pattern.proxy.spring" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="name.wwl.demo.study.design.pattern.state.v2" />
+      <recent name="name.wwl.demo.study.design.pattern.bridge.v4" />
       <recent name="name.wwl.demo.study.design.pattern.observe" />
       <recent name="name.wwl.demo.study.tank.factory" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\java大数据学习总结\java\02设计模式\02self-code\tank-demo\src\main\java\name\wwl\demo\study\design\pattern\factory\simple" />
+      <recent name="E:\java大数据学习\study\java\02设计模式\02self-code\tank-demo\src\main\java\name\wwl\demo\study\design\pattern\proxy\v10" />
+      <recent name="E:\java大数据学习\study\java\02设计模式\02self-code\tank-demo\src\main\java\name\wwl\demo\study\design\pattern\proxy\v9" />
+      <recent name="E:\java大数据学习\study\java\02设计模式\02self-code\tank-demo\src\main\java\name\wwl\demo\study\design\pattern\proxy\v8" />
+      <recent name="E:\java大数据学习\study\java\02设计模式\02self-code\tank-demo\src\main\java\name\wwl\demo\study\design\pattern\proxy\v7" />
+      <recent name="E:\java大数据学习\study\java\02设计模式\02self-code\tank-demo\src\main\java\name\wwl\demo\study\design\pattern\proxy\v6" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -72,13 +155,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FlyWeight">
-    <configuration name="Composite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.composite.Composite" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.proxy.spring.Main" />
       <module name="tank-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="name.wwl.demo.study.design.pattern.composite.*" />
+          <option name="PATTERN" value="name.wwl.demo.study.design.pattern.proxy.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlyWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.flyweight.FlyWeight" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.proxy.cglib.Main" />
       <module name="tank-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="name.wwl.demo.study.design.pattern.flyweight.*" />
+          <option name="PATTERN" value="name.wwl.demo.study.design.pattern.proxy.cglib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Observe6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.observe.Observe6" />
+    <configuration name="Tank (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.proxy.v7.Tank" />
       <module name="tank-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="name.wwl.demo.study.design.pattern.observe.*" />
+          <option name="PATTERN" value="name.wwl.demo.study.design.pattern.proxy.v7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Observe7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.observe.Observe7" />
+    <configuration name="Tank (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.proxy.v8.Tank" />
       <module name="tank-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="name.wwl.demo.study.design.pattern.observe.*" />
+          <option name="PATTERN" value="name.wwl.demo.study.design.pattern.proxy.v8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +221,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Observe8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.observe.Observe8" />
+    <configuration name="Tank (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="name.wwl.demo.study.design.pattern.proxy.v10.Tank" />
       <module name="tank-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="name.wwl.demo.study.design.pattern.observe.*" />
+          <option name="PATTERN" value="name.wwl.demo.study.design.pattern.proxy.v10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FlyWeight" />
-        <item itemvalue="Application.Composite" />
-        <item itemvalue="Application.Observe8" />
-        <item itemvalue="Application.Observe7" />
-        <item itemvalue="Application.Observe6" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Tank (5)" />
+        <item itemvalue="Application.Tank (4)" />
+        <item itemvalue="Application.Tank (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +259,7 @@
       <workItem from="1590206224092" duration="17899000" />
       <workItem from="1590402263304" duration="9937000" />
       <workItem from="1590418511691" duration="2260000" />
-      <workItem from="1590591862678" duration="2972000" />
+      <workItem from="1590591862678" duration="26028000" />
     </task>
     <task id="LOCAL-00001" summary="坦克大战策略模式">
       <created>1590210308558</created>
