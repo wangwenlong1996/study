@@ -2,91 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f82dec6-32c8-4cc8-a40c-524aa12c9a30" name="Default Changelist" comment="坦克大战策略模式">
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/adapter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v1/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v1/Flower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v1/GG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v1/Gift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v1/MM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v2/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v2/Flower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v2/GG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v2/Gift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v2/MM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v2/WarmGift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v2/WildGift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v3/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v3/Flower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v3/GG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v3/Gift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v3/MM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v3/WarmFlower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v3/WarmGift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v3/WildGift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v4/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v4/Flower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v4/GG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v4/Gift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v4/GiftImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v4/MM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v4/WarmGift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/bridge/v4/WildGift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/builder/ComplexTerrainBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/builder/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/builder/Terrain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/builder/TerrainBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/command/Content.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/command/CopyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/command/DeleteCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/command/InsertCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/command/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v3/ArrayList_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v3/Collection_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v3/LinkedList_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v5/ArrayList_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v5/Collection_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v5/Iterator_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v5/LinkedList_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v6/ArrayList_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v6/Collection_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v6/Iterator_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/iterator/v6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/memento/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/prototype/v1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/prototype/v2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/prototype/v3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/prototype/v4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/cglib/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/spring/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/spring/Tank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/spring/TimeProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v1/Tank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v10/Tank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v2/Tank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v3/Tank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v4/Tank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v5/Tank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v6/Tank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v7/Tank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v8/Tank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/proxy/v9/Tank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/state/ThreadState_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/state/v1/MM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/state/v2/MM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/state/v2/MMHappyState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/state/v2/MMSadState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/state/v2/MMState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/templatemethod/TemplateMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/name/wwl/demo/study/design/pattern/visitor/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/app_auto.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -259,7 +175,7 @@
       <workItem from="1590206224092" duration="17899000" />
       <workItem from="1590402263304" duration="9937000" />
       <workItem from="1590418511691" duration="2260000" />
-      <workItem from="1590591862678" duration="26028000" />
+      <workItem from="1590591862678" duration="27278000" />
     </task>
     <task id="LOCAL-00001" summary="坦克大战策略模式">
       <created>1590210308558</created>
