@@ -9,14 +9,14 @@ import java.awt.*;
 
 public class Bullet extends BaseBullet {
 
-    private static final int SPEED = 10;
+    private static final int SPEED = 15;
     public static int WIDTH = ResourceMgr.getInstance().bulletD.getWidth();
     public static int HEIGHT = ResourceMgr.getInstance().bulletD.getHeight();
 
-    Rectangle rect = new Rectangle();
+    public Rectangle rect = new Rectangle();
 
-    GameModel gm = null;
-    private int x, y;
+    GameModel gm = GameModel.getInstance();
+//    private int x, y;
     private Dir dir;
     private boolean live=true;
 
@@ -30,11 +30,10 @@ public class Bullet extends BaseBullet {
         this.group = group;
     }
 
-    public Bullet(int x, int y, Dir dir, Group group, GameModel gm) {
+    public Bullet(int x, int y, Dir dir, Group group) {
         this.x = x;
         this.y = y;
         this.dir = dir;
-        this.gm = gm;
         this.group = group;
 
         rect.x = this.x;
@@ -75,6 +74,16 @@ public class Bullet extends BaseBullet {
         rect.y= this.y;
     }
 
+    @Override
+    public int getWidth() {
+        return WIDTH;
+    }
+
+    @Override
+    public int getHeight() {
+        return HEIGHT;
+    }
+
     private void move() {
         switch (dir) {
             case LEFT:
@@ -95,22 +104,22 @@ public class Bullet extends BaseBullet {
 
     }
 
-    @Override
-    public boolean collideWith(BaseTank tank){
-        if (this.group ==tank.getGroup()) return false;
-        if (rect.intersects(tank.rect)){
-             this.die();
-             tank.die();
-            int eX = tank.getX() + Tank.WIDTH/2 - Explode.WIDTH/2;
-            int eY = tank.getY() + Tank.HEIGHT/2 - Explode.HEIGHT/2;
-             gm.add(gm.gf.createExplore(eX,eY,gm));
-             return true;
-        }
+//    @Override
+//    public boolean collideWith(BaseTank tank){
+//        if (this.group ==tank.getGroup()) return false;
+//        if (rect.intersects(tank.rect)){
+//             this.die();
+//             tank.die();
+//            int eX = tank.getX() + Tank.WIDTH/2 - Explode.WIDTH/2;
+//            int eY = tank.getY() + Tank.HEIGHT/2 - Explode.HEIGHT/2;
+//             gm.add(gm.gf.createExplore(eX,eY));
+//             return true;
+//        }
+//
+//        return false;
+//    }
 
-        return false;
-    }
-
-    private void die(){
+    public void die(){
         this.live=false;
     }
 

@@ -13,7 +13,7 @@ public class RectBullet extends BaseBullet {
 
     Rectangle rect = new Rectangle();
 
-    GameModel gm = null;
+    GameModel gm = GameModel.getInstance();
     private int x, y;
     private Dir dir;
     private boolean live=true;
@@ -28,11 +28,10 @@ public class RectBullet extends BaseBullet {
         this.group = group;
     }
 
-    public RectBullet(int x, int y, Dir dir, Group group, GameModel gm) {
+    public RectBullet(int x, int y, Dir dir, Group group) {
         this.x = x;
         this.y = y;
         this.dir = dir;
-        this.gm = gm;
         this.group = group;
 
         rect.x = this.x;
@@ -73,6 +72,16 @@ public class RectBullet extends BaseBullet {
         rect.y= this.y;
     }
 
+    @Override
+    public int getWidth() {
+        return WIDTH;
+    }
+
+    @Override
+    public int getHeight() {
+        return HEIGHT;
+    }
+
     private void move() {
         switch (dir) {
             case LEFT:
@@ -93,20 +102,20 @@ public class RectBullet extends BaseBullet {
 
     }
 
-    @Override
-    public boolean collideWith(BaseTank tank){
-        if (this.group ==tank.getGroup()) return false;
-        if (rect.intersects(tank.rect)){
-            this.die();
-            tank.die();
-            int eX = tank.getX() + Tank.WIDTH/2 - Explode.WIDTH/2;
-            int eY = tank.getY() + Tank.HEIGHT/2 - Explode.HEIGHT/2;
-            gm.add(gm.gf.createExplore(eX,eY,gm));
-            return true;
-        }
-
-        return false;
-    }
+//    @Override
+//    public boolean collideWith(BaseTank tank){
+//        if (this.group ==tank.getGroup()) return false;
+//        if (rect.intersects(tank.rect)){
+//            this.die();
+//            tank.die();
+//            int eX = tank.getX() + Tank.WIDTH/2 - Explode.WIDTH/2;
+//            int eY = tank.getY() + Tank.HEIGHT/2 - Explode.HEIGHT/2;
+//            gm.add(gm.gf.createExplore(eX,eY));
+//            return true;
+//        }
+//
+//        return false;
+//    }
 
     private void die(){
         this.live=false;

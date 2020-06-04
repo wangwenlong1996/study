@@ -1,6 +1,7 @@
 package name.wwl.demo.study.tank.strategy;
 
 import name.wwl.demo.study.tank.*;
+import name.wwl.demo.study.tank.facade.GameModel;
 import name.wwl.demo.study.tank.factory.BaseTank;
 import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
@@ -13,7 +14,7 @@ public class FourDirFireStrategy implements FireStrategy {
         Dir[] dirs = Dir.values();
 
         for (Dir dir:dirs){
-            t.getGm().gf.createBullet(bx,by,dir,t.getGroup(),t.getGm());
+            GameModel.getInstance().gf.createBullet(bx,by,dir,t.getGroup());
 
 
         }

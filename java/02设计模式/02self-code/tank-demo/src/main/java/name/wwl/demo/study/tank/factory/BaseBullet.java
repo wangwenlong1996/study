@@ -7,6 +7,6 @@ import java.awt.*;
 
 public abstract class BaseBullet extends GameObject {
 
-    public abstract boolean collideWith(BaseTank tank);
+//    public abstract boolean collideWith(BaseTank tank);
 
 }

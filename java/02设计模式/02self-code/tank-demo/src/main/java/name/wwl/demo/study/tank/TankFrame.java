@@ -20,7 +20,7 @@ import java.util.List;
 public class TankFrame extends Frame {
 
 
-    public GameModel gm = new GameModel();
+    public GameModel gm =GameModel.getInstance();
 
 
 
@@ -112,7 +112,7 @@ public class TankFrame extends Frame {
                     bD = false;
                     break;
                 case KeyEvent.VK_CONTROL:
-                    gm.getMyTank().fire();
+                    gm.getMyTank().handleFireKey();
                     break;
 
                 default:

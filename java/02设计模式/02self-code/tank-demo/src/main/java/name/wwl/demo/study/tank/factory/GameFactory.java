@@ -7,10 +7,10 @@ import name.wwl.demo.study.tank.facade.GameModel;
 
 public abstract class GameFactory {
 
-    public abstract BaseTank createTank(int x, int y, Dir dir, Group group, GameModel gm);
+    public abstract BaseTank createTank(int x, int y, Dir dir, Group group);
 
-    public abstract BaseExplore createExplore(int x,int y,GameModel gm);
+    public abstract BaseExplore createExplore(int x,int y);
 
-    public abstract BaseBullet createBullet(int x,int y, Dir dir,Group group,GameModel gm);
+    public abstract BaseBullet createBullet(int x,int y, Dir dir,Group group);
 
 }

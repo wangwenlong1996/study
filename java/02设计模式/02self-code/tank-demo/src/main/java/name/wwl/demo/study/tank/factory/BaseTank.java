@@ -36,7 +36,7 @@ public abstract class BaseTank extends GameObject {
         this.gm = gm;
     }
 
-    public GameModel gm = null;
+    public GameModel gm = GameModel.getInstance();
 
 
     public Group getGroup(){

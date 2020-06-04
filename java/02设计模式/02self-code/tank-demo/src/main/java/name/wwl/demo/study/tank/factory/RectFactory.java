@@ -5,17 +5,17 @@ import name.wwl.demo.study.tank.facade.GameModel;
 
 public class RectFactory extends GameFactory {
     @Override
-    public BaseTank createTank(int x, int y, Dir dir, Group group, GameModel gm) {
-        return new RectTank(x,y,dir,group,gm);
+    public BaseTank createTank(int x, int y, Dir dir, Group group) {
+        return new RectTank(x,y,dir,group);
     }
 
     @Override
-    public BaseExplore createExplore(int x, int y,  GameModel gm) {
-        return new RectExplode(x,y,gm);
+    public BaseExplore createExplore(int x, int y) {
+        return new RectExplode(x,y);
     }
 
     @Override
-    public BaseBullet createBullet(int x, int y, Dir dir, Group group,  GameModel gm) {
-        return new RectBullet(x,y,dir,group,gm);
+    public BaseBullet createBullet(int x, int y, Dir dir, Group group) {
+        return new RectBullet(x,y,dir,group);
     }
 }
