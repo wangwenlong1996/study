@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f82dec6-32c8-4cc8-a40c-524aa12c9a30" name="Default Changelist" comment="坦克大战策略模式">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6f82dec6-32c8-4cc8-a40c-524aa12c9a30" name="Default Changelist" comment="坦克大战策略模式" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +173,7 @@
       <workItem from="1590206224092" duration="17899000" />
       <workItem from="1590402263304" duration="9937000" />
       <workItem from="1590418511691" duration="2260000" />
-      <workItem from="1590591862678" duration="27278000" />
+      <workItem from="1590591862678" duration="27295000" />
     </task>
     <task id="LOCAL-00001" summary="坦克大战策略模式">
       <created>1590210308558</created>
